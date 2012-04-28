@@ -6015,13 +6015,13 @@ body {
 }
 /* line 22, ../../app/stylesheets/application.css.scss */
 body #main_title {
-  margin-top: 40px;
+  margin-top: 10px;
 }
 /* line 24, ../../app/stylesheets/application.css.scss */
 body #main_title h1 {
   font-weight: 200;
   font-size: 64px;
-  line-height: 72;
+  line-height: 96px;
 }
 /* line 33, ../../app/stylesheets/application.css.scss */
 body div#main h1, body div#main h2, body div#main h3, body div#main p {

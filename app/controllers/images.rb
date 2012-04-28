@@ -6,11 +6,12 @@ Demarco.controllers :images do
 
   get :year, :map => "/years/:year" do
     @images = Image.where(:year => params[:year].to_i)
-    render :"images/index"
+    @year = params[:year]
+    render :"images/year"
   end
   
   get :artist, :map => "/artists/:name" do
-    @images = Image.where(:title => /#{params[:name]}/i )
+    @images = Image.where(:title => /Abramovic/ )
     render :"images/artist"
   end
 
