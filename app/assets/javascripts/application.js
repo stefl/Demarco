@@ -3,13 +3,12 @@ $(function() {
 
   window.myPhotoSwipe = $("#images a").photoSwipe(
     {
-      autoStartSlideshow: true, 
+      autoStartSlideshow: false, 
       enableMouseWheel: true , 
       enableKeyboard: true,
-      captionAndToolbarAutoHideDelay: -1,
       captionAndToolbarFlipPosition: true,
       getImageCaption: function(el) {
-        return $(el).parent().find("details");
+        return $(el).parent().find("details").html();
       }
     });
 });

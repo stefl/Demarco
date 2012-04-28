@@ -14,3 +14,5 @@ case Padrino.env
 end
 
 MONGO_CONNECTION = connection
+
+# mongorestore -h ds033107.mongolab.com:33107 -d heroku_app4307410 -u demarco -p d3m4rc0! 

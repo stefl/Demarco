@@ -13,4 +13,8 @@ Demarco.controllers :images do
     render :"images/index"
   end
 
+  get :home, :map => "/" do
+    render :"images/home"
+  end
+
 end
