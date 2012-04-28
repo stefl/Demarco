@@ -8,7 +8,8 @@ $(function() {
       enableKeyboard: true,
       captionAndToolbarFlipPosition: true,
       getImageCaption: function(el) {
-        return $(el).parent().find("details").html();
+        console.log($(el).parent());
+        return $(el).find("details").text();
       }
     });
 });

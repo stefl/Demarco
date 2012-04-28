@@ -4,6 +4,6 @@
       .thumbnail_item
         .thumbnail_image{:style => "background-image: url(http://www.demarco-archive.ac.uk/assets/tmp/uploads/medium/#{image.medium_image})"}
           %a{:href=>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{image.large_image}"}
-        %details.hidden
-          = image.title
-          = image.description
+            %details.hidden
+              = image.title
+              = image.description
