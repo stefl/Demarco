@@ -42,9 +42,13 @@
                   %b{:class=>"caret"}
                 %ul.dropdown-menu
                   %li
-                    %a{:href => "/artists"} All
-                  %li
                     %a{:href => "/artists/abramovic"} Marina Abramovic
+                  %li
+                    %a{:href => "/artists/beuys"} Joseph Beuys
+                  %li
+                    %a{:href => "/artists/hirst"} Damien Hirst
+                  %li
+                    %a{:href => "/artists/neagu"} Paul Neagu
                   
               %li#60s.dropdown{:class=> request.path =~ /^\/years\/60s/ ? "active" : ""} 
                 %a.dropdown-toggle{:"data-toggle" => "dropdown", :href => "#60s"} 

@@ -11,7 +11,7 @@ Demarco.controllers :images do
   end
   
   get :artist, :map => "/artists/:name" do
-    @images = Image.where(:title => /Abramovic/ )
+    @images = Image.where(:title => /#{params[:name].humanize}/ )
     render :"images/artist"
   end
 
