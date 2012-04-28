@@ -1,6 +1,10 @@
 $(function() {
   $('.dropdown-toggle').dropdown();
 
+  $(".thumbnail_image").each(function(i,e) {
+    $(e).css({"background-image": "url(" + $(e).data().thumbnail + ")"});
+  });
+
   window.myPhotoSwipe = $("#images a").photoSwipe(
     {
       autoStartSlideshow: false, 
