@@ -4,7 +4,7 @@ Demarco.controllers :images do
     render :"images/index"
   end
 
-  get :year, :map => "/years/:year" do
+  get :year, :map => "/years/:decade/:year" do
     @images = Image.where(:year => params[:year].to_i)
     @year = params[:year]
     render :"images/year"
