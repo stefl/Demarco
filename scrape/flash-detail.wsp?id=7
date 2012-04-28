@@ -1,0 +1,74 @@
+<xml>
+
+    
+<base
+
+            id="7"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1970-05-07"
+            dateTo="1970-05-07"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00007l.jpg"
+            mediumImage="00007m.jpg"
+            smallImage="00007s.jpg"
+            existenceLocationOriginals="A.2B.008"
+            existenceLocationDigitalSurrogate="00007.tif"
+>
+<title>
+<![CDATA[
+1970. Ruhrberg, Jappe, Beuys, Haritas. Arthur&#039;s Seat, Edinburgh.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+7 May 1970.&nbsp;L-R: Karl Ruhrberg, Georg Jappe, Joseph Beuys, James Haritas,&nbsp;on Arthur&#039;s Seat, Holyrood Park, Edinburgh. Preparation for Strategy: Get Arts exhibition.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="James Haritas" id="8" >
+             	<role name="" id="2" />
+             	<nationality name="American" id="6" />
+             </person>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Karl Ruhrberg" id="525" >
+             	<role name="Museum Director" id="49" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Georg Jappe" id="7" >
+             	<role name="Art Critic" id="5" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Places" id="8" />
+             <person name="Country" id="7" />
+             <person name="Exhibition" id="2" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

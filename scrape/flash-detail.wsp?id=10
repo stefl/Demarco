@@ -1,0 +1,89 @@
+<xml>
+
+    
+<base
+
+            id="10"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1970-05-07"
+            dateTo="1970-05-07"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00010l.jpg"
+            mediumImage="00010m.jpg"
+            smallImage="00010s.jpg"
+            existenceLocationOriginals="A.2B.008"
+            existenceLocationDigitalSurrogate="00010.tif"
+>
+<title>
+<![CDATA[
+1970. Group including Beuys, England, Schueler, at home of John Martin, Edinburgh.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+7 May 1970.&nbsp;L-R: Envin Cremona, Mary de Piro, Joseph Beuys, Richard England, James Haritas, Gabriel Caruana, Jon Schueler, at home of Demarco Gallery Board Member John Martin in Edinburgh.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Jon Schueler" id="10" >
+             	<role name="Artist" id="4" />
+             	<nationality name="American" id="6" />
+             </person>
+             <person name="Richard England" id="11" >
+             	<role name="Artist" id="4" />
+             	<nationality name="Maltese" id="8" />
+             </person>
+             <person name="Mary de Piro" id="12" >
+             	<role name="Artist" id="4" />
+             	<nationality name="Maltese" id="8" />
+             </person>
+             <person name="Envin Cremona" id="13" >
+             	<role name="Artist" id="4" />
+             	<nationality name="Maltese" id="8" />
+             </person>
+             <person name="Gabriel Caruana" id="14" >
+             	<role name="Artist" id="4" />
+             	<nationality name="Maltese" id="8" />
+             </person>
+             <person name="James Haritas" id="8" >
+             	<role name="" id="2" />
+             	<nationality name="American" id="6" />
+             </person>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Richard England" id="11" >
+             	<role name="Architect" id="12" />
+             	<nationality name="Maltese" id="8" />
+             </person>
+             <person name="Joseph Beuys" id="104" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Places" id="8" />
+             <person name="Exhibition" id="2" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

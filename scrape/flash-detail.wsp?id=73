@@ -1,0 +1,55 @@
+<xml>
+
+    
+<base
+
+            id="73"
+           	referenceCodes="BEU.73.003"
+            dateFrom="2007-01-01"
+            dateTo="2007-01-01"
+            extentAndMediumDescription="1 x 35mm B/W Contact Print"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00073l.jpg"
+            mediumImage="00073m.jpg"
+            smallImage="00073s.jpg"
+            existenceLocationOriginals="B.4A.008.001"
+            existenceLocationDigitalSurrogate="00073.tif"
+>
+<title>
+<![CDATA[
+Untitled
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+    </criteria>
+    
+
+    	
+
+
+</xml>

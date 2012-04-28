@@ -1,0 +1,67 @@
+<xml>
+
+    
+<base
+
+            id="11"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1977-06-24"
+            dateTo="1977-10-01"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00011l.jpg"
+            mediumImage="00011m.jpg"
+            smallImage="00011s.jpg"
+            existenceLocationOriginals="B.7b"
+            existenceLocationDigitalSurrogate="00011.tif"
+>
+<title>
+<![CDATA[
+1977. Beuys. Documenta Six, Kassel, Germany.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+24 June - 1 October 1977.&nbsp;Joseph Beuys, seated centre, Robert McDowell, seated third from left. Northern Ireland Workshop. One Hundred Days of the Free International University. Documenta Six, Kassel, Germany
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Beuys, Joseph" id="1" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Robert McDowell" id="17" >
+             	<role name="Artist" id="4" />
+             	<nationality name="British" id="7" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Artwork" id="1" />
+             <person name="Country" id="7" />
+             <person name="Event" id="4" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

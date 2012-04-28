@@ -1,0 +1,61 @@
+<xml>
+
+    
+<base
+
+            id="2"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1970-05-07"
+            dateTo="1970-05-07"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00002l.jpg"
+            mediumImage="00002m.jpg"
+            smallImage="00002s.jpg"
+            existenceLocationOriginals="A.2B.008"
+            existenceLocationDigitalSurrogate="00002.tif"
+>
+<title>
+<![CDATA[
+1970. Beuys views white horse on farm land near Edinburgh.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+7 May 1970.&nbsp;Joseph Beuys views white horse on farm land near Edinburgh airport, shortly after his arrival in Scotland.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Places" id="8" />
+             <person name="Country" id="7" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

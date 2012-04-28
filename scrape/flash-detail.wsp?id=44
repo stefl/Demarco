@@ -1,0 +1,70 @@
+<xml>
+
+    
+<base
+
+            id="44"
+           	referenceCodes="BEU.70.003"
+            dateFrom="1970-08-01"
+            dateTo="1970-09-30"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00044l.jpg"
+            mediumImage="00044m.jpg"
+            smallImage="00044s.jpg"
+            existenceLocationOriginals="A.2B.010"
+            existenceLocationDigitalSurrogate="00044.tif"
+>
+<title>
+<![CDATA[
+1970. Joseph, Wenzel and Eva Beuys at RDG, Edinburgh.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+August/ September 1970. &nbsp;L-R: Joseph Beuys, son Wenzel Beuys and wife Eva Beuys in RDG office, 8 Melville Crescent, Edinburgh. Preparation for Strategy: Get Arts exhibition.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Beuys, Joseph" id="1" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Eva Beuys" id="24" >
+             	<role name="" id="2" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Wenzel Beuys" id="25" >
+             	<role name="" id="2" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Exhibition" id="2" />
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

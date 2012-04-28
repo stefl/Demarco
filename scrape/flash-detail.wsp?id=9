@@ -1,0 +1,62 @@
+<xml>
+
+    
+<base
+
+            id="9"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1970-05-07"
+            dateTo="1970-05-07"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00009l.jpg"
+            mediumImage="00009m.jpg"
+            smallImage="00009s.jpg"
+            existenceLocationOriginals="A.2B.008"
+            existenceLocationDigitalSurrogate="00009.tif"
+>
+<title>
+<![CDATA[
+1970. Beuys on Salisbury Crags, Edinburgh.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+7 May 1970. Joseph Beuys on Salisbury Crags, Holyrood Park, Edinburgh.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+             <person name="Artwork" id="6" />
+             <person name="Exhibition" id="3" />
+    </categories>
+    
+    <criteria>
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

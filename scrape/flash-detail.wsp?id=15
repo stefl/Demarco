@@ -1,0 +1,55 @@
+<xml>
+
+    
+<base
+
+            id="15"
+           	referenceCodes="BEU.70.001"
+            dateFrom="2007-01-01"
+            dateTo="2007-01-01"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00015l.jpg"
+            mediumImage="00015m.jpg"
+            smallImage="00015s.jpg"
+            existenceLocationOriginals="B.2B.008"
+            existenceLocationDigitalSurrogate="00015.tif"
+>
+<title>
+<![CDATA[
+Untitled
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+    </criteria>
+    
+
+    	
+
+
+</xml>

@@ -1,0 +1,62 @@
+<xml>
+
+    
+<base
+
+            id="68"
+           	referenceCodes="BEU.73.001"
+            dateFrom="1973-08-20"
+            dateTo="1973-08-20"
+            extentAndMediumDescription="1 x Colour Photograph"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00068l.jpg"
+            mediumImage="00068m.jpg"
+            smallImage="00068s.jpg"
+            existenceLocationOriginals="A.4A.046"
+            existenceLocationDigitalSurrogate="00068.tif"
+>
+<title>
+<![CDATA[
+1973. Beuys. Twelve Hour Lecture. Edinburgh Arts 1973.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+20 August 1973. Joseph Beuys, centre. The Twelve Hour Lecture: A Homage to Anacharsis Cloots. Melville College. Edinburgh Arts 1973.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Artwork" id="1" />
+             <person name="Edinburgh Arts" id="6" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

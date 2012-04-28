@@ -1,0 +1,11 @@
+.page-title
+  %h1
+    Photographs from
+    = @year
+
+%ul#images.thumbnails
+  - @images.each do |image|
+    .span3
+      .thumbnail_item
+        .thumbnail_image{:style => "background-image: url(http://www.demarco-archive.ac.uk/assets/tmp/uploads/medium/#{image.medium_image})"}
+          %a{:href=>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{image.large_image}"}

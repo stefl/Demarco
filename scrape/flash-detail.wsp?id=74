@@ -1,0 +1,62 @@
+<xml>
+
+    
+<base
+
+            id="74"
+           	referenceCodes="BEU.73.003"
+            dateFrom="1973-08-01"
+            dateTo="1973-09-30"
+            extentAndMediumDescription="1 x 35mm B/W Contact Print"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00074l.jpg"
+            mediumImage="00074m.jpg"
+            smallImage="00074s.jpg"
+            existenceLocationOriginals="A.4A.005.015"
+            existenceLocationDigitalSurrogate="00074.tif"
+>
+<title>
+<![CDATA[
+1973. Beuys at Kantor&#039;s production of Lovelies and Dowdies, Edinburgh. Edinburgh Arts 1973.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+1973. Joseph Beuys (centre) at Tadeusz Kantor&#039;s Cricot 2 Theatre production of Lovelies and Dowdies at the old Forrest Hill Poorhouse, Edinburgh. Edinburgh Arts 1973.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Theatre" id="3" />
+             <person name="Places" id="8" />
+             <person name="Edinburgh Arts" id="6" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

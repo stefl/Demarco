@@ -1,0 +1,55 @@
+<xml>
+
+    
+<base
+
+            id="98"
+           	referenceCodes="BEU.77.001"
+            dateFrom="2007-01-01"
+            dateTo="2007-01-01"
+            extentAndMediumDescription="1 x B/W Photograph"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00098l.jpg"
+            mediumImage="00098m.jpg"
+            smallImage="00098s.jpg"
+            existenceLocationOriginals="B.7B.030"
+            existenceLocationDigitalSurrogate="00098.tif"
+>
+<title>
+<![CDATA[
+DUPLICATE
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+    </criteria>
+    
+
+    	
+
+
+</xml>

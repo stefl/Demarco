@@ -1,0 +1,61 @@
+<xml>
+
+    
+<base
+
+            id="41"
+           	referenceCodes="BEU.70.003"
+            dateFrom="1970-05-08"
+            dateTo="1970-05-08"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00041l.jpg"
+            mediumImage="00041m.jpg"
+            smallImage="00041s.jpg"
+            existenceLocationOriginals="A.2B.010"
+            existenceLocationDigitalSurrogate="00041.tif"
+>
+<title>
+<![CDATA[
+1970. Beuys on Rannoch Moor, Scotland.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+8 May 1970. Joseph Beuys on Rannoch Moor, Argyll, Scotland.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

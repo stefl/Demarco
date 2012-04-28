@@ -1,0 +1,61 @@
+<xml>
+
+    
+<base
+
+            id="32"
+           	referenceCodes="BEU.70.002"
+            dateFrom="1970-05-08"
+            dateTo="1970-05-08"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00032l.jpg"
+            mediumImage="00032m.jpg"
+            smallImage="00032s.jpg"
+            existenceLocationOriginals="A.2B.009"
+            existenceLocationDigitalSurrogate="00032.tif"
+>
+<title>
+<![CDATA[
+1970. Beuys with Highland cattle. Scotland.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+8 May 1970. Joseph Beuys with Highland cattle, Argyll, Scotland.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

@@ -1,0 +1,73 @@
+<xml>
+
+    
+<base
+
+            id="53"
+           	referenceCodes="BEU.70.003"
+            dateFrom="1970-05-09"
+            dateTo="1970-05-09"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00053l.jpg"
+            mediumImage="00053m.jpg"
+            smallImage="00053s.jpg"
+            existenceLocationOriginals="B.2B.010"
+            existenceLocationDigitalSurrogate="00053.tif"
+>
+<title>
+<![CDATA[
+1970. Townsend, Siegelaub, Beuys, Jappe, in London.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+9 May 1970. L-R:&nbsp;&nbsp;Peter Townsend (Editor of Studio International), Joseph Beuys (German Artist), Seth Siegelaub (American Artist, Curator,&nbsp;Project Editor of Studio International vol. 180, no.924, July/ August 1970), Joseph Beuys, George Jappe (German Art Critic) in London.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Seth Siegelaub" id="22" >
+             	<role name="Artist" id="4" />
+             	<nationality name="American" id="6" />
+             </person>
+             <person name="Peter Townsend" id="23" >
+             	<role name="Editor/ Writer" id="22" />
+             	<nationality name="British" id="7" />
+             </person>
+             <person name="Georg Jappe" id="7" >
+             	<role name="Art Critic" id="5" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Places" id="8" />
+             <person name="Country" id="7" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

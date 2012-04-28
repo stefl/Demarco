@@ -1,0 +1,59 @@
+<xml>
+
+    
+<base
+
+            id="48"
+           	referenceCodes="BEU.70.003"
+            dateFrom="1977-06-24"
+            dateTo="1977-10-01"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00048l.jpg"
+            mediumImage="00048m.jpg"
+            smallImage="00048s.jpg"
+            existenceLocationOriginals="B.7b."
+            existenceLocationDigitalSurrogate="00048.tif"
+>
+<title>
+<![CDATA[
+1977. Beuys. Documenta Six, Kassel, Germany.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+24 June - 1 October 1977. &nbsp;Joseph Beuys, left. One Hundred Days of the Free International University, Documenta Six, Kassel, Germany.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Beuys, Joseph" id="1" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Artwork" id="1" />
+             <person name="Event" id="4" />
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

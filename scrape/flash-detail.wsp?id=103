@@ -1,0 +1,63 @@
+<xml>
+
+    
+<base
+
+            id="103"
+           	referenceCodes="BEU.77.001"
+            dateFrom="1977-06-24"
+            dateTo="1977-10-01"
+            extentAndMediumDescription="1 x B/W Photograph"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00103l.jpg"
+            mediumImage="00103m.jpg"
+            smallImage="00103s.jpg"
+            existenceLocationOriginals="B.7B.030"
+            existenceLocationDigitalSurrogate="00103.tif"
+>
+<title>
+<![CDATA[
+1977. Beuys. Documenta Six. Kassel, Germany.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+24 June - 1 October 1977. Joseph Beuys.<strong> </strong>One Hundred Days of the Free International University event. Documenta Six, Kassel, Germany.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Artwork" id="1" />
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+             <person name="Event" id="4" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

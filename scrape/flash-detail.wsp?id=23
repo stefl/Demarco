@@ -1,0 +1,65 @@
+<xml>
+
+    
+<base
+
+            id="23"
+           	referenceCodes="BEU.70.002"
+            dateFrom="1970-05-08"
+            dateTo="1970-05-08"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00023l.jpg"
+            mediumImage="00023m.jpg"
+            smallImage="00023s.jpg"
+            existenceLocationOriginals="A.2B.009"
+            existenceLocationDigitalSurrogate="00023.tif"
+>
+<title>
+<![CDATA[
+1970. Demarco and Beuys. Scotland.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+8 May 1970. Richard Demarco, left, and Joseph Beuys in Argyll, Scotland.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Gallery Director" id="6" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

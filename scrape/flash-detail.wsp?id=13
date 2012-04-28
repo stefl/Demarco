@@ -1,0 +1,78 @@
+<xml>
+
+    
+<base
+
+            id="13"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1970-05-07"
+            dateTo="1970-05-07"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00013l.jpg"
+            mediumImage="00013m.jpg"
+            smallImage="00013s.jpg"
+            existenceLocationOriginals="A.2B.008"
+            existenceLocationDigitalSurrogate="00013.tif"
+>
+<title>
+<![CDATA[
+1970. Beuys and group. RDG
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+7 May 1970. L-R: Georg Jappe, Karl Ruhrberg, Joseph Beuys, Sally Holman, John (Jack) Knox. RDG, 8 Melville Crescent, Edinburgh. Preparation for Strategy: Get Arts exhibition.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Sally Holman" id="18" >
+             	<role name="RDG Staff" id="10" />
+             	<nationality name="British" id="7" />
+             </person>
+             <person name="Jack (John) Knox" id="19" >
+             	<role name="Artist" id="4" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Karl Ruhrberg" id="525" >
+             	<role name="Museum Director" id="49" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Georg Jappe" id="7" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Exhibition" id="2" />
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

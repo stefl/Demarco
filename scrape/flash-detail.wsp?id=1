@@ -1,0 +1,65 @@
+<xml>
+
+    
+<base
+
+            id="1"
+           	referenceCodes="BEU.70.001"
+            dateFrom="1970-05-07"
+            dateTo="1970-05-07"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00001l.jpg"
+            mediumImage="00001m.jpg"
+            smallImage="00001s.jpg"
+            existenceLocationOriginals="A.2B.008"
+            existenceLocationDigitalSurrogate="00001.tif"
+>
+<title>
+<![CDATA[
+1970. Beuys. Arrival Edinburgh Airport.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+7 May 1970. Joseph Beuys (right). Arrival at Turnhouse Airport, Edinburgh. Preparation for Strategy: Get Arts exhibition.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+             <person name="Artist" id="1" />
+             <person name="Exhibition" id="3" />
+    </categories>
+    
+    <criteria>
+             <person name="Exhibition" id="2" />
+             <person name="Country" id="7" />
+             <person name="Places" id="8" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

@@ -1,0 +1,69 @@
+<xml>
+
+    
+<base
+
+            id="55"
+           	referenceCodes="BEU.70.003"
+            dateFrom="1970-05-09"
+            dateTo="1970-05-09"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00055l.jpg"
+            mediumImage="00055m.jpg"
+            smallImage="00055s.jpg"
+            existenceLocationOriginals="B.2B.010"
+            existenceLocationDigitalSurrogate="00055.tif"
+>
+<title>
+<![CDATA[
+1970. Joseph Beuys and Richard Hamilton in London.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+9 May 1970. L-R: Georg Jappe, Joseph Beuys, Richard Hamilton, Rita Donagh, meeting at Hamilton&#039;s home in London.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Richard Hamilton" id="26" >
+             	<role name="Artist" id="4" />
+             	<nationality name="English" id="10" />
+             </person>
+             <person name="Georg Jappe" id="7" >
+             	<role name="Art Critic" id="5" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Rita Donagh" id="1030" >
+             	<role name="Artist" id="4" />
+             	<nationality name="British" id="7" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Places" id="8" />
+             <person name="Country" id="7" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

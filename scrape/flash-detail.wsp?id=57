@@ -1,0 +1,69 @@
+<xml>
+
+    
+<base
+
+            id="57"
+           	referenceCodes="BEU.70.004"
+            dateFrom="1970-08-21"
+            dateTo="1970-09-12"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00057l.jpg"
+            mediumImage="00057m.jpg"
+            smallImage="00057s.jpg"
+            existenceLocationOriginals="A.2B.012"
+            existenceLocationDigitalSurrogate="00057.tif"
+>
+<title>
+<![CDATA[
+1970. Bernea, Beuys, Stuttgen. New Directions. RDG, Edinburgh.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+21 August - 12 September 1970. &nbsp;L-R: Horia Bernea, Joseph Beuys, Johannes Stuttgen with works by Bernea in the exhibition New Directions, RDG, 8 Melville Crescent, Edinburgh.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Horia Bernea" id="27" >
+             	<role name="Artist" id="4" />
+             	<nationality name="Romanian" id="11" />
+             </person>
+             <person name="Johannes Stuttgen" id="28" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Exhibition" id="2" />
+             <person name="Places" id="8" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

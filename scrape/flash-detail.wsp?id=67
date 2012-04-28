@@ -1,0 +1,76 @@
+<xml>
+
+    
+<base
+
+            id="67"
+           	referenceCodes="BEU.70.005"
+            dateFrom="1970-08-23"
+            dateTo="1970-09-12"
+            extentAndMediumDescription="1 x 35mm B/W Negative"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00067l.jpg"
+            mediumImage="00067m.jpg"
+            smallImage="00067s.jpg"
+            existenceLocationOriginals="A.2B.021"
+            existenceLocationDigitalSurrogate="00067.tif"
+>
+<title>
+<![CDATA[
+1970. Julian Glover, Timothy West, Sally Holman, view works by Beuys. Strategy: Get Art.<br />
+
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+23 August - 12 September 1970. L-R: Actors Julian Glover and Timothy West and RDG assistant Sally Holman view work by Joseph Beuys (later entitled Arena), Strategy: Get Arts exhibition (Contemporary Art from Dusseldorf, presented at Edinburgh College of Art by the RDG in association with Kunsthalle Dusseldorf,&nbsp; for the Edinburgh International Festival.)&nbsp;
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Sally Holman" id="18" >
+             	<role name="RDG Staff" id="10" />
+             	<nationality name="British" id="7" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Julian Glover" id="30" >
+             	<role name="Actor/ Performer" id="19" />
+             	<nationality name="British" id="7" />
+             </person>
+             <person name="Timothy West" id="31" >
+             	<role name="Actor/ Performer" id="19" />
+             	<nationality name="British" id="7" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Artwork" id="1" />
+             <person name="Exhibition" id="2" />
+             <person name="Edinburgh Festival" id="5" />
+             <person name="Institution" id="9" />
+    </criteria>
+    
+
+    	
+
+
+</xml>

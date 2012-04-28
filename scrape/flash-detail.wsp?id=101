@@ -1,0 +1,64 @@
+<xml>
+
+    
+<base
+
+            id="101"
+           	referenceCodes="BEU.77.001"
+            dateFrom="1977-06-24"
+            dateTo="1977-10-01"
+            extentAndMediumDescription="1 x B/W Photograph"
+            publisherName=""
+            publishedLocation=""
+            largeImage="00101l.jpg"
+            mediumImage="00101m.jpg"
+            smallImage="00101s.jpg"
+            existenceLocationOriginals="B.7B.030"
+            existenceLocationDigitalSurrogate="00101.tif"
+>
+<title>
+<![CDATA[
+1977. Beuys. Documenta Six. Kassel, Germany.
+]]>
+</title>
+<scopeContent>
+<![CDATA[
+24 June-1 October 1977. Robert McDowell (third from left)&nbsp;and Joseph Beuys (centre) with particicipants in the One Hundred Days of the Free International University event. Documenta Six, Kassel, Germany.
+]]>
+</scopeContent>
+</base>
+
+    <creators>
+             <person name="Richard Demarco" id="4" >
+             	<role name="Creator" id="1" />
+             	<nationality name="Scottish" id="4" />
+             </person>
+             <person name="Joseph Beuys" id="100" >
+             	<role name="Artist" id="4" />
+             	<nationality name="German" id="2" />
+             </person>
+             <person name="Robert McDowell" id="17" >
+             	<role name="Untitled Role" id="38" />
+             	<nationality name="British" id="7" />
+             </person>
+    </creators>
+
+    <relatedPersons>
+    </relatedPersons>
+
+
+    <relatedLocations>
+    </relatedLocations>
+
+    <categories>
+    </categories>
+    
+    <criteria>
+             <person name="Artwork" id="1" />
+    </criteria>
+    
+
+    	
+
+
+</xml>
