@@ -10,7 +10,8 @@ Demarco.controllers :images do
   end
   
   get :artist, :map => "/artists/:name" do
-    render :"images/index"
+    @images = Image.where(:title => /#{params[:name]}/i )
+    render :"images/artist"
   end
 
   get :home, :map => "/" do
