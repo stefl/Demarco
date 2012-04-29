@@ -12,7 +12,7 @@ Demarco.controllers :images do
   end
 
   get :show, :map => "/images/:catalogue_number" do
-    not_found unless @image = Image.where(:catalogue_number => params[:catalogue_number]).first
+    pass unless @image = Image.where(:catalogue_number => params[:catalogue_number]).first
     @title = @image.title
     render :"images/show"
   end
