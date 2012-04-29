@@ -45,6 +45,10 @@ class Image
     "#{title} #{description} #{year} #{medium}"
   end
 
+  def title_stripped
+    self.title.gsub(/<\/?[^>]*>/, "")
+  end
+
   def self.fulltext_search text
     results = indextank_index.search text
     document_ids = results['results'].collect {|i| i['docid']}

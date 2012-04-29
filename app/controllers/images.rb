@@ -13,7 +13,7 @@ Demarco.controllers :images do
 
   get :show, :map => "/images/:catalogue_number" do
     pass unless @image = Image.where(:catalogue_number => params[:catalogue_number]).first
-    @title = @image.title
+    @title = @image.title_stripped
     render :"images/show"
   end
 

@@ -1,7 +1,7 @@
 #main_title.row
   .span12
     %h1
-      = @image.title.gsub(/<\/?[^>]*>/, "")
+      = @image.title_stripped
     = simple_format @image.description
 
 #image.row
