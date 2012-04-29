@@ -225,9 +225,11 @@ div.ps-toolbar-play div.ps-toolbar-content
 
 @media (max-width: 768px) {
   div#main_title {
+    margin-top: 10px;
     h1 {
       font-size: 32px;
-      line-height: 48px;
+      line-height: 32px;
+      margin-bottom: 32px;
     }
   }
 }

@@ -6226,9 +6226,14 @@ div.ps-toolbar-play div.ps-toolbar-content {
   }
 }
 @media (max-width: 768px) {
-  /* line 228, ../../app/stylesheets/application.css.scss */
+  /* line 227, ../../app/stylesheets/application.css.scss */
+  div#main_title {
+    margin-top: 10px;
+  }
+  /* line 229, ../../app/stylesheets/application.css.scss */
   div#main_title h1 {
     font-size: 32px;
-    line-height: 48px;
+    line-height: 32px;
+    margin-bottom: 32px;
   }
 }
