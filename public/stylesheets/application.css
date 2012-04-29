@@ -6133,7 +6133,7 @@ div.ps-caption {
   border-bottom: 1px solid #42403f;
   color: #ffffff;
   font-size: 16px;
-  font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
+  font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
   text-align: center;
 }
 
@@ -6160,7 +6160,7 @@ div.ps-caption-content {
 div.ps-toolbar {
   color: #ffffff;
   font-size: 13px;
-  font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
+  font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
   text-align: center;
   height: 44px;
   display: none;
