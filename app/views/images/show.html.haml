@@ -1,0 +1,10 @@
+#main_title.row
+  .span12
+    %h1
+      = @image.title
+    = simple_format @image.description
+
+#image.row
+  .span12
+    %img{:src =>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{@image.large_image}"}
+

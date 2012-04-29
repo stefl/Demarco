@@ -1,7 +1,8 @@
 .span3
   .thumbnail_item
     .thumbnail_image{:"data-thumbnail" => "http://www.demarco-archive.ac.uk/assets/tmp/uploads/medium/#{image.medium_image}"}
-      %a{:href=>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{image.large_image}"}
+      %a.perma{:href => url_for(:images, :show, :catalogue_number => image.catalogue_number)} +
+      %a.display{:href=>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{image.large_image}"}
         %details.hidden
           .title
             = image.title

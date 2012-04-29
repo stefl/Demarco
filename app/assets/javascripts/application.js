@@ -12,7 +12,7 @@ $(function() {
     window.myPhotoSwipe.toolbar.toggleVisibility();
   });
 
-  window.myPhotoSwipe = $("#images a").photoSwipe(
+  window.myPhotoSwipe = $("#images a.display").photoSwipe(
     {
       autoStartSlideshow: false, 
       enableMouseWheel: true , 
