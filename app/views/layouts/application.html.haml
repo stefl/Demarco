@@ -3,9 +3,10 @@
 %html{:lang => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
   %head
     %title
-      Richard Demarco
       - if @title
-        ="| #{@title}"
+        ="#{@title} | Richard Demarco — Through the Lens"
+      - else
+        Richard Demarco — Through the Lens
     %link{:rel => "shortcut icon", :href=>"/images/icon57x57.png"}/
     %link{:rel => "apple-touch-icon-precomposed", :sizes=>"57x57", :href=>"/images/icon57x57.png"}/
     %link{:rel => "apple-touch-icon-precomposed", :sizes=>"72x72", :href=>"/images/icon72x72.png"}/
