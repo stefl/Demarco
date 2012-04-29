@@ -6140,11 +6140,11 @@ div.ps-carousel-item-error {
 /* line 143, ../../app/stylesheets/application.css.scss */
 div.ps-caption {
   background: #000000;
-  border-bottom: 1px solid #42403f;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 18px;
   font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 /* line 151, ../../app/stylesheets/application.css.scss */

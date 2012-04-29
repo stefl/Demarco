@@ -142,11 +142,11 @@ div.ps-carousel-item-error
 div.ps-caption
 { 
   background: #000000;
-  border-bottom: 1px solid #42403f;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 18px;
   font-family: $ratio;
-  text-align: center;
+  text-align: left;
 }
 div.ps-caption *  { display: inline; }
 
