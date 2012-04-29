@@ -6,19 +6,16 @@
 @import "compass_twitter_bootstrap_responsive";
 
 $ratio: "ratio", "Helvetica Neue", helvetica, sans-serif;
-/*
- * photoswipe.css
- * Copyright (c) %%year%% by Code Computerlove (http://www.codecomputerlove.com)
- * Licensed under the MIT license
- *
- * Default styles for PhotoSwipe
- * Avoid any position or dimension based styles
- * where possible, unless specified already here.
- * The gallery automatically works out gallery item
- * positions etc.
- */
 
 body {
+  #footer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: #aa3377;
+  }
   #main_title {
     margin-top: 70px;
     h1 {

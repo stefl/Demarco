@@ -5997,48 +5997,46 @@ cite {
     margin-left: 30px;
   }
 }
-/*
- * photoswipe.css
- * Copyright (c) %%year%% by Code Computerlove (http://www.codecomputerlove.com)
- * Licensed under the MIT license
- *
- * Default styles for PhotoSwipe
- * Avoid any position or dimension based styles
- * where possible, unless specified already here.
- * The gallery automatically works out gallery item
- * positions etc.
- */
-/* line 21, ../../app/stylesheets/application.css.scss */
+/* line 10, ../../app/stylesheets/application.css.scss */
 body {
   background-color: #eee;
 }
-/* line 22, ../../app/stylesheets/application.css.scss */
+/* line 11, ../../app/stylesheets/application.css.scss */
+body #footer {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+/* line 16, ../../app/stylesheets/application.css.scss */
+body a {
+  color: #aa3377;
+}
+/* line 19, ../../app/stylesheets/application.css.scss */
 body #main_title {
   margin-top: 70px;
 }
-/* line 24, ../../app/stylesheets/application.css.scss */
+/* line 21, ../../app/stylesheets/application.css.scss */
 body #main_title h1 {
   font-weight: 200;
   font-size: 64px;
   line-height: 96px;
 }
-/* line 32, ../../app/stylesheets/application.css.scss */
+/* line 29, ../../app/stylesheets/application.css.scss */
 body div#main h1, body div#main h2, body div#main h3, body div#main p {
   font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
 }
-/* line 35, ../../app/stylesheets/application.css.scss */
+/* line 32, ../../app/stylesheets/application.css.scss */
 body div#main #intro {
   margin-top: 64px;
   margin-bottom: 1.5em;
 }
-/* line 38, ../../app/stylesheets/application.css.scss */
+/* line 35, ../../app/stylesheets/application.css.scss */
 body div#main #intro h1 {
   font-size: 64px;
   line-height: 72px;
   font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
   font-weight: 200 !important;
 }
-/* line 44, ../../app/stylesheets/application.css.scss */
+/* line 41, ../../app/stylesheets/application.css.scss */
 body div#main #intro h2.quote {
   margin-top: 3em;
   font-size: 32px;
@@ -6046,35 +6044,35 @@ body div#main #intro h2.quote {
   font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
   font-weight: 200 !important;
 }
-/* line 51, ../../app/stylesheets/application.css.scss */
+/* line 48, ../../app/stylesheets/application.css.scss */
 body div#main #intro p {
   margin-top: 1.5em;
 }
 
-/* line 59, ../../app/stylesheets/application.css.scss */
+/* line 56, ../../app/stylesheets/application.css.scss */
 body.ps-active, body.ps-building, div.ps-active, div.ps-building {
   background: #000;
   overflow: hidden;
 }
 
-/* line 64, ../../app/stylesheets/application.css.scss */
+/* line 61, ../../app/stylesheets/application.css.scss */
 body.ps-active *, div.ps-active * {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   display: none;
 }
 
-/* line 69, ../../app/stylesheets/application.css.scss */
+/* line 66, ../../app/stylesheets/application.css.scss */
 body.ps-active *:focus, div.ps-active *:focus {
   outline: 0;
 }
 
 /* Document overlay */
-/* line 76, ../../app/stylesheets/application.css.scss */
+/* line 73, ../../app/stylesheets/application.css.scss */
 div.ps-document-overlay {
   background: #000;
 }
 
-/* line 80, ../../app/stylesheets/application.css.scss */
+/* line 77, ../../app/stylesheets/application.css.scss */
 .thumbnail_item {
   margin-bottom: 10px;
   background-color: black;
@@ -6084,13 +6082,13 @@ div.ps-document-overlay {
   box-shadow: #dddddd 0px 0px 6px;
 }
 
-/* line 87, ../../app/stylesheets/application.css.scss */
+/* line 84, ../../app/stylesheets/application.css.scss */
 .thumbnail_image {
   width: 100%;
   height: 175px;
   background-repeat: no-repeat;
 }
-/* line 91, ../../app/stylesheets/application.css.scss */
+/* line 88, ../../app/stylesheets/application.css.scss */
 .thumbnail_image a {
   width: 100%;
   height: 175px;
@@ -6098,36 +6096,36 @@ div.ps-document-overlay {
 }
 
 /* UILayer */
-/* line 98, ../../app/stylesheets/application.css.scss */
+/* line 95, ../../app/stylesheets/application.css.scss */
 div.ps-uilayer {
   background: #000;
   cursor: pointer;
 }
 
 /* Zoom/pan/rotate layer */
-/* line 107, ../../app/stylesheets/application.css.scss */
+/* line 104, ../../app/stylesheets/application.css.scss */
 div.ps-zoom-pan-rotate {
   background: #000;
 }
 
-/* line 110, ../../app/stylesheets/application.css.scss */
+/* line 107, ../../app/stylesheets/application.css.scss */
 div.ps-zoom-pan-rotate * {
   display: block;
 }
 
 /* Carousel */
-/* line 115, ../../app/stylesheets/application.css.scss */
+/* line 112, ../../app/stylesheets/application.css.scss */
 div.ps-carousel-item-loading {
   background: url(/loader.gif) no-repeat center center;
 }
 
-/* line 120, ../../app/stylesheets/application.css.scss */
+/* line 117, ../../app/stylesheets/application.css.scss */
 div.ps-carousel-item-error {
   background: url(/error.gif) no-repeat center center;
 }
 
 /* Caption */
-/* line 127, ../../app/stylesheets/application.css.scss */
+/* line 124, ../../app/stylesheets/application.css.scss */
 div.ps-caption {
   background: #000000;
   border-bottom: 1px solid #42403f;
@@ -6137,26 +6135,26 @@ div.ps-caption {
   text-align: center;
 }
 
-/* line 135, ../../app/stylesheets/application.css.scss */
+/* line 132, ../../app/stylesheets/application.css.scss */
 div.ps-caption * {
   display: inline;
 }
 
-/* line 138, ../../app/stylesheets/application.css.scss */
+/* line 135, ../../app/stylesheets/application.css.scss */
 div.ps-caption-bottom {
   border-top: 1px solid #42403f;
   border-bottom: none;
   min-height: 44px;
 }
 
-/* line 145, ../../app/stylesheets/application.css.scss */
+/* line 142, ../../app/stylesheets/application.css.scss */
 div.ps-caption-content {
   padding: 13px;
   display: block;
 }
 
 /* Toolbar */
-/* line 153, ../../app/stylesheets/application.css.scss */
+/* line 150, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar {
   color: #ffffff;
   font-size: 13px;
@@ -6167,23 +6165,23 @@ div.ps-toolbar {
   table-layout: fixed;
 }
 
-/* line 162, ../../app/stylesheets/application.css.scss */
+/* line 159, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar * {
   display: block;
 }
 
-/* line 167, ../../app/stylesheets/application.css.scss */
+/* line 164, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-top {
   border-top: none;
 }
 
-/* line 172, ../../app/stylesheets/application.css.scss */
+/* line 169, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-close, div.ps-toolbar-previous, div.ps-toolbar-next, div.ps-toolbar-play {
   cursor: pointer;
   display: table-cell;
 }
 
-/* line 178, ../../app/stylesheets/application.css.scss */
+/* line 175, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar div div.ps-toolbar-content {
   width: 44px;
   height: 44px;
@@ -6192,39 +6190,39 @@ div.ps-toolbar div div.ps-toolbar-content {
   background-repeat: no-repeat;
 }
 
-/* line 187, ../../app/stylesheets/application.css.scss */
+/* line 184, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-close div.ps-toolbar-content {
   background-position: 0 0;
 }
 
-/* line 192, ../../app/stylesheets/application.css.scss */
+/* line 189, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-previous div.ps-toolbar-content {
   background-position: -44px 0;
 }
 
-/* line 197, ../../app/stylesheets/application.css.scss */
+/* line 194, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-previous-disabled div.ps-toolbar-content {
   background-position: -44px -44px;
 }
 
-/* line 202, ../../app/stylesheets/application.css.scss */
+/* line 199, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-next div.ps-toolbar-content {
   background-position: -132px 0;
 }
 
-/* line 207, ../../app/stylesheets/application.css.scss */
+/* line 204, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-next-disabled div.ps-toolbar-content {
   background-position: -132px -44px;
 }
 
-/* line 212, ../../app/stylesheets/application.css.scss */
+/* line 209, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-play div.ps-toolbar-content {
   background-position: -88px 0;
 }
 
 /* Hi-res display */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi) {
-  /* line 222, ../../app/stylesheets/application.css.scss */
+  /* line 219, ../../app/stylesheets/application.css.scss */
   div.ps-toolbar div div.ps-toolbar-content {
     -moz-background-size: 176px 88px;
     -o-background-size: 176px 88px;
@@ -6234,11 +6232,11 @@ div.ps-toolbar-play div.ps-toolbar-content {
   }
 }
 @media (max-width: 768px) {
-  /* line 232, ../../app/stylesheets/application.css.scss */
+  /* line 229, ../../app/stylesheets/application.css.scss */
   div#main_title {
     margin-top: 10px;
   }
-  /* line 234, ../../app/stylesheets/application.css.scss */
+  /* line 231, ../../app/stylesheets/application.css.scss */
   div#main_title h1 {
     font-size: 32px;
     line-height: 32px;
@@ -6246,7 +6244,7 @@ div.ps-toolbar-play div.ps-toolbar-content {
   }
 }
 /* TipTip CSS - Version 1.2 */
-/* line 244, ../../app/stylesheets/application.css.scss */
+/* line 241, ../../app/stylesheets/application.css.scss */
 #tiptip_holder {
   display: none;
   position: absolute;
@@ -6255,27 +6253,27 @@ div.ps-toolbar-play div.ps-toolbar-content {
   z-index: 99999;
 }
 
-/* line 252, ../../app/stylesheets/application.css.scss */
+/* line 249, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_top {
   padding-bottom: 5px;
 }
 
-/* line 256, ../../app/stylesheets/application.css.scss */
+/* line 253, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_bottom {
   padding-top: 5px;
 }
 
-/* line 260, ../../app/stylesheets/application.css.scss */
+/* line 257, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_right {
   padding-left: 5px;
 }
 
-/* line 264, ../../app/stylesheets/application.css.scss */
+/* line 261, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_left {
   padding-right: 5px;
 }
 
-/* line 268, ../../app/stylesheets/application.css.scss */
+/* line 265, ../../app/stylesheets/application.css.scss */
 #tiptip_content {
   font-size: 11px;
   color: #fff;
@@ -6293,7 +6291,7 @@ div.ps-toolbar-play div.ps-toolbar-content {
   -moz-box-shadow: 0 0 3px #555;
 }
 
-/* line 285, ../../app/stylesheets/application.css.scss */
+/* line 282, ../../app/stylesheets/application.css.scss */
 #tiptip_arrow, #tiptip_arrow_inner {
   position: absolute;
   border-color: transparent;
@@ -6303,31 +6301,31 @@ div.ps-toolbar-play div.ps-toolbar-content {
   width: 0;
 }
 
-/* line 294, ../../app/stylesheets/application.css.scss */
+/* line 291, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_top #tiptip_arrow {
   border-top-color: #fff;
   border-top-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 299, ../../app/stylesheets/application.css.scss */
+/* line 296, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_bottom #tiptip_arrow {
   border-bottom-color: #fff;
   border-bottom-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 304, ../../app/stylesheets/application.css.scss */
+/* line 301, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_right #tiptip_arrow {
   border-right-color: #fff;
   border-right-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 309, ../../app/stylesheets/application.css.scss */
+/* line 306, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_left #tiptip_arrow {
   border-left-color: #fff;
   border-left-color: rgba(255, 255, 255, 0.35);
 }
 
-/* line 314, ../../app/stylesheets/application.css.scss */
+/* line 311, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_top #tiptip_arrow_inner {
   margin-top: -7px;
   margin-left: -6px;
@@ -6335,7 +6333,7 @@ div.ps-toolbar-play div.ps-toolbar-content {
   border-top-color: rgba(25, 25, 25, 0.92);
 }
 
-/* line 321, ../../app/stylesheets/application.css.scss */
+/* line 318, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_bottom #tiptip_arrow_inner {
   margin-top: -5px;
   margin-left: -6px;
@@ -6343,7 +6341,7 @@ div.ps-toolbar-play div.ps-toolbar-content {
   border-bottom-color: rgba(25, 25, 25, 0.92);
 }
 
-/* line 328, ../../app/stylesheets/application.css.scss */
+/* line 325, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_right #tiptip_arrow_inner {
   margin-top: -6px;
   margin-left: -5px;
@@ -6351,7 +6349,7 @@ div.ps-toolbar-play div.ps-toolbar-content {
   border-right-color: rgba(25, 25, 25, 0.92);
 }
 
-/* line 335, ../../app/stylesheets/application.css.scss */
+/* line 332, ../../app/stylesheets/application.css.scss */
 #tiptip_holder.tip_left #tiptip_arrow_inner {
   margin-top: -6px;
   margin-left: -7px;
@@ -6361,18 +6359,18 @@ div.ps-toolbar-play div.ps-toolbar-content {
 
 /* Webkit Hacks  */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  /* line 344, ../../app/stylesheets/application.css.scss */
+  /* line 341, ../../app/stylesheets/application.css.scss */
   #tiptip_content {
     padding: 4px 8px 5px 8px;
     background-color: rgba(45, 45, 45, 0.88);
   }
 
-  /* line 348, ../../app/stylesheets/application.css.scss */
+  /* line 345, ../../app/stylesheets/application.css.scss */
   #tiptip_holder.tip_bottom #tiptip_arrow_inner {
     border-bottom-color: rgba(45, 45, 45, 0.88);
   }
 
-  /* line 351, ../../app/stylesheets/application.css.scss */
+  /* line 348, ../../app/stylesheets/application.css.scss */
   #tiptip_holder.tip_top #tiptip_arrow_inner {
     border-top-color: rgba(20, 20, 20, 0.92);
   }
