@@ -1,6 +1,6 @@
 $(function() {
   $('.dropdown-toggle').dropdown();
-
+  $(".navbar-search input").autocomplete();
   $(".thumbnail_image").each(function(i,e) {
     $(e).css({"background-image": "url(" + $(e).data().thumbnail + ")"});
     $(e).find("a").tipTip({ 
