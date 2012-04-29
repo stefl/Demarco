@@ -19,4 +19,10 @@ Demarco.controllers :images do
     render :"images/home"
   end
 
+  get :search, :map =>"/search" do
+    @images = Image.fulltext_search(params[:q].to_s)
+    @title = "Search results for \"#{params[:q]}\""
+    render :"images/index"
+  end
+
 end

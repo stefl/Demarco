@@ -25,7 +25,8 @@ gem 'sass-on-heroku'
 gem 'padrino-sprockets', :require => 'padrino/sprockets', :git => "git://github.com/stefl/padrino-sprockets.git", :branch => "patch-1"
 gem 'compass'
 gem "compass_twitter_bootstrap", git: "https://github.com/vwall/compass-twitter-bootstrap.git"
-
+gem 'mongoid_fulltext'
+gem 'mongoid-metastamp'
 
 # Or Padrino Edge
 # gem 'padrino', :git => 'git://github.com/padrino/padrino-framework.git'

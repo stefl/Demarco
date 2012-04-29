@@ -90,7 +90,8 @@
                   - (2000..2001).each do |year|
                     %li
                       %a{:href => "/years/00s/#{year}"}= year
-
+            %form.navbar-search.pull-right{:action=>"/search",:method=>:get}
+              %input.search-query.span2{:type=>"text",:name=>"q",:placeholder=>"Search"}
             
 
     #main

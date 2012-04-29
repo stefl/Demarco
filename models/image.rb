@@ -1,10 +1,13 @@
 class Image
   include Mongoid::Document
   include Mongoid::Timestamps # adds created_at and updated_at fields
-
+  include Mongoid::FullTextSearch  
+  
   field :title
   field :date_from, :type => Date
   field :date_to, :type => Date
+  field :time_from, :type => Mongoid::Metastamp::Time
+  field :time_to, :type => Mongoid::Metastamp::Time
   field :year, :type => Integer
   field :medium
   field :mediumid
@@ -16,10 +19,13 @@ class Image
   field :small_image
   field :highlight, :type => Boolean, :default => false
   field :catalogue_number
-  field :keywords
 
   index :catalogue_number
   index :year
+
+  has_and_belongs_to_many :artists
+
+  fulltext_search_in :title, :description
 
   def self.from_csv path
     $stderr.sync
@@ -43,4 +49,5 @@ class Image
         end
       end
   end
+
 end
