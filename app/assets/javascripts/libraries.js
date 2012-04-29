@@ -8,3 +8,4 @@
 //= require jquery
 //= require jquery.photoswipe
 //= require bootstrap.dropdown
+//= require bootstrap.collapse
