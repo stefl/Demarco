@@ -95,6 +95,9 @@
         = yield
       %footer#footer
         .container
+          - if @images || @image
+            %p
+              %a{:href => "#{request.path}.json"} These images as JSON
           %p
             A 
             %a{:href=>"http://moremonsters.com"} More Monsters

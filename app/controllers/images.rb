@@ -4,17 +4,27 @@ Demarco.controllers :images do
     render :"images/index"
   end
 
-  get :year, :map => "/years/:decade/:year" do
+  get :year, :map => "/years/:decade/:year", :provides => [:html, :json] do
     @images = Image.where(:year => params[:year].to_i)
     @year = params[:year]
     @title = "Photographs from #{@year}"
-    render :"images/year"
+    case content_type
+    when :json
+      @images.to_json
+    when :html
+      render :"images/year"
+    end
   end
 
-  get :show, :map => "/images/:catalogue_number" do
+  get :show, :map => "/images/:catalogue_number", :provides => [:html, :json] do
     pass unless @image = Image.where(:catalogue_number => params[:catalogue_number]).first
     @title = @image.title_stripped
-    render :"images/show"
+    case content_type
+    when :json
+      @image.to_json
+    when :html
+      render :"images/show"
+    end
   end
 
   get :home, :map => "/" do
@@ -24,7 +34,12 @@ Demarco.controllers :images do
   get :search, :map =>"/search" do
     @images = Image.fulltext_search(params[:q].to_s)
     @title = "Search results for \"#{params[:q]}\""
-    render :"images/index"
+    case content_type
+    when :json
+      @images.to_json
+    when :html
+      render :"images/index"
+    end
   end
 
 end
