@@ -6,16 +6,35 @@
 @import "compass_twitter_bootstrap_responsive";
 
 $ratio: "ratio", "Helvetica Neue", helvetica, sans-serif;
+$purple: #aa3377;
 
 body {
-  #footer {
+  
+  #main_nav.navbar {
+    .brand {
+      font-weight: bold;
+      background-color: darken($purple, 20);
+    }
+    .nav .active > a {
+      background-color: transparent;
+    }
+  }
+
+  footer#footer {
     margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    background-color: #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .container {
+      
+    }
   }
 
   a {
-    color: #aa3377;
+    color: $purple;
   }
+
   #main_title {
     margin-top: 70px;
     h1 {

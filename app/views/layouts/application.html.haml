@@ -22,7 +22,7 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     = stylesheet_link_tag "/stylesheets/application"
   %body{:class => request.path.split("/").empty? ? "home" : request.path.split("/") }
-    .navbar.navbar-fixed-top
+    #main_nav.navbar.navbar-fixed-top
       .navbar-inner
         .container
           %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
@@ -92,7 +92,8 @@
     #main
       #target.container
         = yield
-        %footer#footer
+      %footer#footer
+        .container
           %p
             A 
             %a{:href=>"http://moremonsters.com"} More Monsters
