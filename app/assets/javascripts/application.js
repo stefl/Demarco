@@ -5,6 +5,10 @@ $(function() {
     $(e).css({"background-image": "url(" + $(e).data().thumbnail + ")"});
   });
 
+  $("body").on('click','.ps-caption', function(){
+    window.myPhotoSwipe.toolbar.toggleVisibility();
+  });
+
   window.myPhotoSwipe = $("#images a").photoSwipe(
     {
       autoStartSlideshow: false, 

@@ -6,10 +6,4 @@
 
 %ul#images.thumbnails
   - @images.each do |image|
-    .span3
-      .thumbnail_item
-        .thumbnail_image{:"data-thumbnail" => "http://www.demarco-archive.ac.uk/assets/tmp/uploads/medium/#{image.medium_image}"}
-          %a{:href=>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{image.large_image}"}
-            %details.hidden
-              = image.title
-              = image.description
+    = render_partial :"images/thumbnail", :locals => {:image => image}

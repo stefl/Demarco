@@ -26,7 +26,6 @@ gem 'padrino-sprockets', :require => 'padrino/sprockets', :git => "git://github.
 gem 'compass'
 gem "compass_twitter_bootstrap", git: "https://github.com/vwall/compass-twitter-bootstrap.git"
 gem 'indextank'
-gem 'mongotank', :git => 'https://github.com/stefl/Mongotank.git'
 gem 'mongoid-metastamp'
 gem "mongoid-slugify", :require => "mongoid/slugify"
 gem 'dbpediafinder', :git => 'git://github.com/njh/dbpediafinder.git'

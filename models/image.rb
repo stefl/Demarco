@@ -1,7 +1,6 @@
 class Image
   include Mongoid::Document
   include Mongoid::Timestamps # adds created_at and updated_at fields
-  include MongoTank
 
   field :title
   field :date_from, :type => Date
@@ -25,12 +24,28 @@ class Image
 
   has_and_belongs_to_many :artists
 
-  search_in :title, :description, :realtime => false
+  after_save :update_for_search!
 
-  def self.search_index text
-    tank_search = MongoTank::Query.new
-    tank_search.where(:title => text, :description => text)
-    results = tank_search.execute
+  def self.indextank_client
+    @client ||= IndexTank::Client.new ENV['SEARCHIFY_API_URL']
+  end
+
+  def self.indextank_index
+    @indextank_index ||= Image.indextank_client.indexes "images"
+  end
+
+  def update_for_search!
+    Image.indextank_index.document(self._id.to_s).add({ :text => text_for_search })
+  end
+
+  def text_for_search
+    "#{title} #{description} #{year} #{medium} #{artists.collect(&:name).join(" ")}"
+  end
+
+  def self.fulltext_search text
+    results = indextank_index.search text
+    document_ids = results['results'].collect {|i| i['docid']}
+    Image.where({:_id.in => document_ids })
   end
 
   def self.from_csv path

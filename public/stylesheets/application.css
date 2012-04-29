@@ -6074,15 +6074,19 @@ div.ps-document-overlay {
 .thumbnail_item {
   margin-bottom: 10px;
   background-color: black;
+  border: 4px solid white;
+  -webkit-box-shadow: #dddddd 0px 0px 6px;
+  -moz-box-shadow: #dddddd 0px 0px 6px;
+  box-shadow: #dddddd 0px 0px 6px;
 }
 
-/* line 82, ../../app/stylesheets/application.css.scss */
+/* line 84, ../../app/stylesheets/application.css.scss */
 .thumbnail_image {
   width: 100%;
   height: 175px;
   background-repeat: no-repeat;
 }
-/* line 86, ../../app/stylesheets/application.css.scss */
+/* line 88, ../../app/stylesheets/application.css.scss */
 .thumbnail_image a {
   width: 100%;
   height: 175px;
@@ -6090,36 +6094,36 @@ div.ps-document-overlay {
 }
 
 /* UILayer */
-/* line 93, ../../app/stylesheets/application.css.scss */
+/* line 95, ../../app/stylesheets/application.css.scss */
 div.ps-uilayer {
   background: #000;
   cursor: pointer;
 }
 
 /* Zoom/pan/rotate layer */
-/* line 102, ../../app/stylesheets/application.css.scss */
+/* line 104, ../../app/stylesheets/application.css.scss */
 div.ps-zoom-pan-rotate {
   background: #000;
 }
 
-/* line 105, ../../app/stylesheets/application.css.scss */
+/* line 107, ../../app/stylesheets/application.css.scss */
 div.ps-zoom-pan-rotate * {
   display: block;
 }
 
 /* Carousel */
-/* line 110, ../../app/stylesheets/application.css.scss */
+/* line 112, ../../app/stylesheets/application.css.scss */
 div.ps-carousel-item-loading {
   background: url(/loader.gif) no-repeat center center;
 }
 
-/* line 115, ../../app/stylesheets/application.css.scss */
+/* line 117, ../../app/stylesheets/application.css.scss */
 div.ps-carousel-item-error {
   background: url(/error.gif) no-repeat center center;
 }
 
 /* Caption */
-/* line 122, ../../app/stylesheets/application.css.scss */
+/* line 124, ../../app/stylesheets/application.css.scss */
 div.ps-caption {
   background: #000000;
   border-bottom: 1px solid #42403f;
@@ -6129,26 +6133,26 @@ div.ps-caption {
   text-align: center;
 }
 
-/* line 130, ../../app/stylesheets/application.css.scss */
+/* line 132, ../../app/stylesheets/application.css.scss */
 div.ps-caption * {
   display: inline;
 }
 
-/* line 133, ../../app/stylesheets/application.css.scss */
+/* line 135, ../../app/stylesheets/application.css.scss */
 div.ps-caption-bottom {
   border-top: 1px solid #42403f;
   border-bottom: none;
   min-height: 44px;
 }
 
-/* line 140, ../../app/stylesheets/application.css.scss */
+/* line 142, ../../app/stylesheets/application.css.scss */
 div.ps-caption-content {
   padding: 13px;
   display: block;
 }
 
 /* Toolbar */
-/* line 148, ../../app/stylesheets/application.css.scss */
+/* line 150, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar {
   color: #ffffff;
   font-size: 13px;
@@ -6159,23 +6163,23 @@ div.ps-toolbar {
   table-layout: fixed;
 }
 
-/* line 157, ../../app/stylesheets/application.css.scss */
+/* line 159, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar * {
   display: block;
 }
 
-/* line 162, ../../app/stylesheets/application.css.scss */
+/* line 164, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-top {
   border-top: none;
 }
 
-/* line 167, ../../app/stylesheets/application.css.scss */
+/* line 169, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-close, div.ps-toolbar-previous, div.ps-toolbar-next, div.ps-toolbar-play {
   cursor: pointer;
   display: table-cell;
 }
 
-/* line 173, ../../app/stylesheets/application.css.scss */
+/* line 175, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar div div.ps-toolbar-content {
   width: 44px;
   height: 44px;
@@ -6184,39 +6188,39 @@ div.ps-toolbar div div.ps-toolbar-content {
   background-repeat: no-repeat;
 }
 
-/* line 182, ../../app/stylesheets/application.css.scss */
+/* line 184, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-close div.ps-toolbar-content {
   background-position: 0 0;
 }
 
-/* line 187, ../../app/stylesheets/application.css.scss */
+/* line 189, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-previous div.ps-toolbar-content {
   background-position: -44px 0;
 }
 
-/* line 192, ../../app/stylesheets/application.css.scss */
+/* line 194, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-previous-disabled div.ps-toolbar-content {
   background-position: -44px -44px;
 }
 
-/* line 197, ../../app/stylesheets/application.css.scss */
+/* line 199, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-next div.ps-toolbar-content {
   background-position: -132px 0;
 }
 
-/* line 202, ../../app/stylesheets/application.css.scss */
+/* line 204, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-next-disabled div.ps-toolbar-content {
   background-position: -132px -44px;
 }
 
-/* line 207, ../../app/stylesheets/application.css.scss */
+/* line 209, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-play div.ps-toolbar-content {
   background-position: -88px 0;
 }
 
 /* Hi-res display */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi) {
-  /* line 217, ../../app/stylesheets/application.css.scss */
+  /* line 219, ../../app/stylesheets/application.css.scss */
   div.ps-toolbar div div.ps-toolbar-content {
     -moz-background-size: 176px 88px;
     -o-background-size: 176px 88px;
@@ -6226,11 +6230,11 @@ div.ps-toolbar-play div.ps-toolbar-content {
   }
 }
 @media (max-width: 768px) {
-  /* line 227, ../../app/stylesheets/application.css.scss */
+  /* line 229, ../../app/stylesheets/application.css.scss */
   div#main_title {
     margin-top: 10px;
   }
-  /* line 229, ../../app/stylesheets/application.css.scss */
+  /* line 231, ../../app/stylesheets/application.css.scss */
   div#main_title h1 {
     font-size: 32px;
     line-height: 32px;

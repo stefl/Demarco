@@ -15,14 +15,6 @@ GIT
       sprockets
 
 GIT
-  remote: https://github.com/stefl/Mongotank.git
-  revision: 8ba10ef5528b1db5b722bd1d1724bff1fcce7253
-  specs:
-    mongotank (0.0.1)
-      hashie
-      indextank
-
-GIT
   remote: https://github.com/vwall/compass-twitter-bootstrap.git
   revision: 1a7b5ce54efaf764eb317127521f7630964a3da7
   specs:
@@ -62,7 +54,6 @@ GEM
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
     haml (3.1.4)
-    hashie (1.2.0)
     hike (1.2.1)
     http_router (0.10.2)
       rack (>= 1.0.0)
@@ -174,7 +165,6 @@ DEPENDENCIES
   mongoid
   mongoid-metastamp
   mongoid-slugify
-  mongotank!
   padrino (= 0.10.5)
   padrino-sprockets!
   rake
