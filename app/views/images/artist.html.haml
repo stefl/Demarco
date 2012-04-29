@@ -1,53 +1,13 @@
 -# coding: utf-8
 #main_title.row
-  - if params[:name] == "neagu"
-    .span12
-      %h1
-        Photographs of Paul Neagu
-    .span6
-      %p
-        Paul Neagu (February 22 1938 - June 16 2004) was a sculptor and teacher who spent a life-time exploring the philosophical themes in sculpture. In 1969 he came to britain at the invitation of Richard Demarco, and has since lived and worked in london, lecturing in fine art at hornsey college of art and chelsea school of art, tutoring the next generation of sculptures. 
-
-      %P
-        Demarco was a co-founder of the Traverse Theatre in Edinburgh in 1963. Three years later he and other organisers of the theatre's gallery space left the Traverse to establish what became the Richard Demarco Gallery.[1] The gallery, which doubled as a performance venue during the Edinburgh Fringe, ran from 1966 to 1992.[2]
-  - elsif params[:name] == "hirst"
-    .span12
-      %h1
-        Photographs of Damien Hirst
-    .span6
-      %p
-        Damien Steven Hirst (born 7 June 1965) is an English artist, entrepreneur and art collector. He is the most prominent member of the group known as the Young British Artists (or YBAs), who dominated the art scene in Britain during the 1990s. He is internationally renowned, and is reportedly Britain's richest living artist, with his wealth valued at £215m in the 2010 Sunday Times Rich List. 
-
-  - elsif params[:name] == "beuys"
-    .span12
-      %h1
-        Photographs of Jospeh Beuys
-    .span6
-      %p
-        Joseph Beuys (May 12, 1921 – January 23, 1986) was a German 
-        = succeed(",") do
-          %a{:href=>"http://en.wikipedia.org/wiki/Fluxus"} Fluxus
-        %a{:href=>"http://en.wikipedia.org/wiki/Happening"}
-          Happening 
-        and performance artist. His career was characterized by passionate, even acrimonious public debate, but he is now regarded as one of the most influential German artists of the second half of the 20th century.
-      %p
-        %a{:href=>"http://www.youtube.com/watch?v=e5UXAqpSJDk"}
-          Watch a video of him on YouTube 
-        and read about his 
-        %a{:href=>"http://www.moma.org/visit/calendar/exhibitions/306"}
-          2010 MoMA exhibition. 
-  - elsif params[:name] == "abramovic"
-    .span12
-      %h1
-        Photographs of Marina Abramovic
-    .span6
-      %p
-        Marina Abramović (born November 30, 1946) is a New York-based Serbian performance artist who began her career in the early 1970s. Active for over three decades, she describes herself as the "grandmother of performance art". 
-
-      %p
-        %a{:href=>"http://www.google.com/url?q=http%3A%2F%2Fwww.guardian.co.uk%2Fartanddesign%2F2010%2Foct%2F03%2Finterview-marina-abramovic-performance-artist&sa=D&sntz=1&usg=AFQjCNH7t78EVqmQkAKD9_y0Sh7JhNrZ1g"} 
-          Read an interview with her 
-        in The Observer, watch her films on her website or join her Facebook community. 
+  .span12
+    %h1
+      Photographs about
+      = @artist.name
+  .span6
+    = simple_format @artist.description
+  .span6
+    = link_to "Via DBPedia", @artist.dbpedia_url unless @artist.dbpedia_url.blank?
 
 %ul#images.thumbnails
   - @images.each do |image|

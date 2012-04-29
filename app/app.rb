@@ -8,6 +8,21 @@ class Demarco < Padrino::Application
 
   enable :sessions
 
+  configure do
+    ENV['INDEXTANK_INDEX'] = "idx"
+  end
+  
+  configure :development do
+    #SEARCHIFY_API_URL         => http://:2AlIk6jDAewlon@dzpbu.api.searchify.com
+    #SEARCHIFY_PRIVATE_API_URL => http://:2AlIk6jDAewlon@dzpbu.api.searchify.com
+    #SEARCHIFY_PUBLIC_API_URL  => http://dzpbu.api.searchify.com
+    ENV['INDEXTANK_API_URL'] = "http://:2AlIk6jDAewlon@dzpbu.api.searchify.com"
+  end
+
+  configure :production do
+    ENV['INDEXTANK_API_URL'] = ENV["SEARCHIFY_API_URL"]
+  end
+
   ##
   # Caching support
   #

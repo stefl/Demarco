@@ -1,8 +1,8 @@
 class Image
   include Mongoid::Document
   include Mongoid::Timestamps # adds created_at and updated_at fields
-  include Mongoid::FullTextSearch  
-  
+  include MongoTank
+
   field :title
   field :date_from, :type => Date
   field :date_to, :type => Date
@@ -25,7 +25,13 @@ class Image
 
   has_and_belongs_to_many :artists
 
-  fulltext_search_in :title, :description
+  search_in :title, :description, :realtime => false
+
+  def self.search_index text
+    tank_search = MongoTank::Query.new
+    tank_search.where(:title => text, :description => text)
+    results = tank_search.execute
+  end
 
   def self.from_csv path
     $stderr.sync

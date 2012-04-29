@@ -9,11 +9,6 @@ Demarco.controllers :images do
     @year = params[:year]
     render :"images/year"
   end
-  
-  get :artist, :map => "/artists/:name" do
-    @images = Image.where(:title => /#{params[:name].humanize}/ )
-    render :"images/artist"
-  end
 
   get :home, :map => "/" do
     render :"images/home"
