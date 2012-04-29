@@ -1648,7 +1648,7 @@ table .span12 {
   height: 14px;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url('../images/glyphicons-halflings.png');
+  background-image: url('../images/glyphicons-halflings.png?1335731415');
   background-position: 14px 14px;
   background-repeat: no-repeat;
   *margin-right: .3em;
@@ -1661,7 +1661,7 @@ table .span12 {
 
 /* line 30, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/bundler/gems/compass-twitter-bootstrap-1a7b5ce54efa/stylesheets/compass_twitter_bootstrap/_sprites.scss */
 .icon-white {
-  background-image: url('../images/glyphicons-halflings-white.png');
+  background-image: url('../images/glyphicons-halflings-white.png?1335731431');
 }
 
 /* line 34, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/bundler/gems/compass-twitter-bootstrap-1a7b5ce54efa/stylesheets/compass_twitter_bootstrap/_sprites.scss */
@@ -6040,37 +6040,41 @@ body div#main #intro h1 {
 }
 /* line 44, ../../app/stylesheets/application.css.scss */
 body div#main #intro h2.quote {
-  margin-top: 10px;
+  margin-top: 3em;
   font-size: 32px;
   line-height: 32px;
   font-family: "ratio", "Helvetica Neue", helvetica, sans-serif;
   font-weight: 200 !important;
 }
+/* line 51, ../../app/stylesheets/application.css.scss */
+body div#main #intro p {
+  margin-top: 1.5em;
+}
 
-/* line 56, ../../app/stylesheets/application.css.scss */
+/* line 59, ../../app/stylesheets/application.css.scss */
 body.ps-active, body.ps-building, div.ps-active, div.ps-building {
   background: #000;
   overflow: hidden;
 }
 
-/* line 61, ../../app/stylesheets/application.css.scss */
+/* line 64, ../../app/stylesheets/application.css.scss */
 body.ps-active *, div.ps-active * {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   display: none;
 }
 
-/* line 66, ../../app/stylesheets/application.css.scss */
+/* line 69, ../../app/stylesheets/application.css.scss */
 body.ps-active *:focus, div.ps-active *:focus {
   outline: 0;
 }
 
 /* Document overlay */
-/* line 73, ../../app/stylesheets/application.css.scss */
+/* line 76, ../../app/stylesheets/application.css.scss */
 div.ps-document-overlay {
   background: #000;
 }
 
-/* line 77, ../../app/stylesheets/application.css.scss */
+/* line 80, ../../app/stylesheets/application.css.scss */
 .thumbnail_item {
   margin-bottom: 10px;
   background-color: black;
@@ -6080,13 +6084,13 @@ div.ps-document-overlay {
   box-shadow: #dddddd 0px 0px 6px;
 }
 
-/* line 84, ../../app/stylesheets/application.css.scss */
+/* line 87, ../../app/stylesheets/application.css.scss */
 .thumbnail_image {
   width: 100%;
   height: 175px;
   background-repeat: no-repeat;
 }
-/* line 88, ../../app/stylesheets/application.css.scss */
+/* line 91, ../../app/stylesheets/application.css.scss */
 .thumbnail_image a {
   width: 100%;
   height: 175px;
@@ -6094,36 +6098,36 @@ div.ps-document-overlay {
 }
 
 /* UILayer */
-/* line 95, ../../app/stylesheets/application.css.scss */
+/* line 98, ../../app/stylesheets/application.css.scss */
 div.ps-uilayer {
   background: #000;
   cursor: pointer;
 }
 
 /* Zoom/pan/rotate layer */
-/* line 104, ../../app/stylesheets/application.css.scss */
+/* line 107, ../../app/stylesheets/application.css.scss */
 div.ps-zoom-pan-rotate {
   background: #000;
 }
 
-/* line 107, ../../app/stylesheets/application.css.scss */
+/* line 110, ../../app/stylesheets/application.css.scss */
 div.ps-zoom-pan-rotate * {
   display: block;
 }
 
 /* Carousel */
-/* line 112, ../../app/stylesheets/application.css.scss */
+/* line 115, ../../app/stylesheets/application.css.scss */
 div.ps-carousel-item-loading {
   background: url(/loader.gif) no-repeat center center;
 }
 
-/* line 117, ../../app/stylesheets/application.css.scss */
+/* line 120, ../../app/stylesheets/application.css.scss */
 div.ps-carousel-item-error {
   background: url(/error.gif) no-repeat center center;
 }
 
 /* Caption */
-/* line 124, ../../app/stylesheets/application.css.scss */
+/* line 127, ../../app/stylesheets/application.css.scss */
 div.ps-caption {
   background: #000000;
   border-bottom: 1px solid #42403f;
@@ -6133,26 +6137,26 @@ div.ps-caption {
   text-align: center;
 }
 
-/* line 132, ../../app/stylesheets/application.css.scss */
+/* line 135, ../../app/stylesheets/application.css.scss */
 div.ps-caption * {
   display: inline;
 }
 
-/* line 135, ../../app/stylesheets/application.css.scss */
+/* line 138, ../../app/stylesheets/application.css.scss */
 div.ps-caption-bottom {
   border-top: 1px solid #42403f;
   border-bottom: none;
   min-height: 44px;
 }
 
-/* line 142, ../../app/stylesheets/application.css.scss */
+/* line 145, ../../app/stylesheets/application.css.scss */
 div.ps-caption-content {
   padding: 13px;
   display: block;
 }
 
 /* Toolbar */
-/* line 150, ../../app/stylesheets/application.css.scss */
+/* line 153, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar {
   color: #ffffff;
   font-size: 13px;
@@ -6163,23 +6167,23 @@ div.ps-toolbar {
   table-layout: fixed;
 }
 
-/* line 159, ../../app/stylesheets/application.css.scss */
+/* line 162, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar * {
   display: block;
 }
 
-/* line 164, ../../app/stylesheets/application.css.scss */
+/* line 167, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-top {
   border-top: none;
 }
 
-/* line 169, ../../app/stylesheets/application.css.scss */
+/* line 172, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-close, div.ps-toolbar-previous, div.ps-toolbar-next, div.ps-toolbar-play {
   cursor: pointer;
   display: table-cell;
 }
 
-/* line 175, ../../app/stylesheets/application.css.scss */
+/* line 178, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar div div.ps-toolbar-content {
   width: 44px;
   height: 44px;
@@ -6188,39 +6192,39 @@ div.ps-toolbar div div.ps-toolbar-content {
   background-repeat: no-repeat;
 }
 
-/* line 184, ../../app/stylesheets/application.css.scss */
+/* line 187, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-close div.ps-toolbar-content {
   background-position: 0 0;
 }
 
-/* line 189, ../../app/stylesheets/application.css.scss */
+/* line 192, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-previous div.ps-toolbar-content {
   background-position: -44px 0;
 }
 
-/* line 194, ../../app/stylesheets/application.css.scss */
+/* line 197, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-previous-disabled div.ps-toolbar-content {
   background-position: -44px -44px;
 }
 
-/* line 199, ../../app/stylesheets/application.css.scss */
+/* line 202, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-next div.ps-toolbar-content {
   background-position: -132px 0;
 }
 
-/* line 204, ../../app/stylesheets/application.css.scss */
+/* line 207, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-next-disabled div.ps-toolbar-content {
   background-position: -132px -44px;
 }
 
-/* line 209, ../../app/stylesheets/application.css.scss */
+/* line 212, ../../app/stylesheets/application.css.scss */
 div.ps-toolbar-play div.ps-toolbar-content {
   background-position: -88px 0;
 }
 
 /* Hi-res display */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi) {
-  /* line 219, ../../app/stylesheets/application.css.scss */
+  /* line 222, ../../app/stylesheets/application.css.scss */
   div.ps-toolbar div div.ps-toolbar-content {
     -moz-background-size: 176px 88px;
     -o-background-size: 176px 88px;
@@ -6230,14 +6234,146 @@ div.ps-toolbar-play div.ps-toolbar-content {
   }
 }
 @media (max-width: 768px) {
-  /* line 229, ../../app/stylesheets/application.css.scss */
+  /* line 232, ../../app/stylesheets/application.css.scss */
   div#main_title {
     margin-top: 10px;
   }
-  /* line 231, ../../app/stylesheets/application.css.scss */
+  /* line 234, ../../app/stylesheets/application.css.scss */
   div#main_title h1 {
     font-size: 32px;
     line-height: 32px;
     margin-bottom: 32px;
+  }
+}
+/* TipTip CSS - Version 1.2 */
+/* line 244, ../../app/stylesheets/application.css.scss */
+#tiptip_holder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+/* line 252, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_top {
+  padding-bottom: 5px;
+}
+
+/* line 256, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_bottom {
+  padding-top: 5px;
+}
+
+/* line 260, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_right {
+  padding-left: 5px;
+}
+
+/* line 264, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_left {
+  padding-right: 5px;
+}
+
+/* line 268, ../../app/stylesheets/application.css.scss */
+#tiptip_content {
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  padding: 4px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.92);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(black));
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 0 3px #555;
+  -webkit-box-shadow: 0 0 3px #555;
+  -moz-box-shadow: 0 0 3px #555;
+}
+
+/* line 285, ../../app/stylesheets/application.css.scss */
+#tiptip_arrow, #tiptip_arrow_inner {
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 6px;
+  height: 0;
+  width: 0;
+}
+
+/* line 294, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_top #tiptip_arrow {
+  border-top-color: #fff;
+  border-top-color: rgba(255, 255, 255, 0.35);
+}
+
+/* line 299, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_bottom #tiptip_arrow {
+  border-bottom-color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+}
+
+/* line 304, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_right #tiptip_arrow {
+  border-right-color: #fff;
+  border-right-color: rgba(255, 255, 255, 0.35);
+}
+
+/* line 309, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_left #tiptip_arrow {
+  border-left-color: #fff;
+  border-left-color: rgba(255, 255, 255, 0.35);
+}
+
+/* line 314, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+  margin-top: -7px;
+  margin-left: -6px;
+  border-top-color: #191919;
+  border-top-color: rgba(25, 25, 25, 0.92);
+}
+
+/* line 321, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+  margin-top: -5px;
+  margin-left: -6px;
+  border-bottom-color: #191919;
+  border-bottom-color: rgba(25, 25, 25, 0.92);
+}
+
+/* line 328, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -5px;
+  border-right-color: #191919;
+  border-right-color: rgba(25, 25, 25, 0.92);
+}
+
+/* line 335, ../../app/stylesheets/application.css.scss */
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -7px;
+  border-left-color: #191919;
+  border-left-color: rgba(25, 25, 25, 0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* line 344, ../../app/stylesheets/application.css.scss */
+  #tiptip_content {
+    padding: 4px 8px 5px 8px;
+    background-color: rgba(45, 45, 45, 0.88);
+  }
+
+  /* line 348, ../../app/stylesheets/application.css.scss */
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: rgba(45, 45, 45, 0.88);
+  }
+
+  /* line 351, ../../app/stylesheets/application.css.scss */
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
+    border-top-color: rgba(20, 20, 20, 0.92);
   }
 }

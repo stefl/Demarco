@@ -9,3 +9,4 @@
 //= require jquery.photoswipe
 //= require bootstrap.dropdown
 //= require bootstrap.collapse
+//= require jquery.tipTip

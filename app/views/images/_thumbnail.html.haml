@@ -3,5 +3,7 @@
     .thumbnail_image{:"data-thumbnail" => "http://www.demarco-archive.ac.uk/assets/tmp/uploads/medium/#{image.medium_image}"}
       %a{:href=>"http://www.demarco-archive.ac.uk/assets/tmp/uploads/large/#{image.large_image}"}
         %details.hidden
-          = image.title
-          = image.description
+          .title
+            = image.title
+          .description
+            = image.description

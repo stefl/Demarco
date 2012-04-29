@@ -18,13 +18,14 @@ class Image
   field :small_image
   field :highlight, :type => Boolean, :default => false
   field :catalogue_number
+  field :indexed, :type => Boolean
 
   index :catalogue_number
   index :year
 
   has_and_belongs_to_many :artists
 
-  after_save :update_for_search!
+  #after_save :update_for_search!
 
   def self.indextank_client
     @client ||= IndexTank::Client.new ENV['SEARCHIFY_API_URL']
@@ -36,10 +37,12 @@ class Image
 
   def update_for_search!
     Image.indextank_index.document(self._id.to_s).add({ :text => text_for_search })
+    self.indexed = true
+    self.save
   end
 
   def text_for_search
-    "#{title} #{description} #{year} #{medium} #{artists.collect(&:name).join(" ")}"
+    "#{title} #{description} #{year} #{medium}"
   end
 
   def self.fulltext_search text

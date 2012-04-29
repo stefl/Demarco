@@ -3,7 +3,7 @@
 %html{:lang => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
   %head
     %title
-      Demarcode
+      Richard Demarco
       - if @title
         ="| #{@title}"
     %link{:rel => "shortcut icon", :href=>"/images/icon57x57.png"}/
@@ -92,6 +92,16 @@
     #main
       #target.container
         = yield
+        %footer#footer
+          %p
+            A 
+            %a{:href=>"http://moremonsters.com"} More Monsters
+            hack
+            by 
+            %a{:href=>"http://twitter.com/stef"} @stef
+            for 
+            %a{:href=>"http://www.welcometosync.com/hack/"} Culture Hack Scotland 2012
+            
 
     = javascript_include_tag "/assets/libraries"
     = javascript_include_tag "/assets/application"

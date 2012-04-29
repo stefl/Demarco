@@ -9,7 +9,8 @@ class Demarco < Padrino::Application
   enable :sessions
   
   configure :development do
-    ENV['SEARCHIFY_API_URL'] = "http://:2AlIk6jDAewlon@dzpbu.api.searchify.com"
+    ENV['SEARCHIFY_API_URL'] = "http://:2eadfBpOvNb7nX@uyux.api.searchify.com"
+    #ENV['SEARCHIFY_API_URL'] = "http://:2AlIk6jDAewlon@dzpbu.api.searchify.com"
   end
 
 end

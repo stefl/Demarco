@@ -3,6 +3,9 @@ $(function() {
 
   $(".thumbnail_image").each(function(i,e) {
     $(e).css({"background-image": "url(" + $(e).data().thumbnail + ")"});
+    $(e).find("a").tipTip({ 
+      content: $(e).find("details .title").html() 
+    });
   });
 
   $("body").on('click','.ps-caption', function(){
@@ -16,7 +19,6 @@ $(function() {
       enableKeyboard: true,
       captionAndToolbarFlipPosition: true,
       getImageCaption: function(el) {
-        console.log($(el).parent());
         return $(el).find("details").text();
       }
     });
