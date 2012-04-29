@@ -222,3 +222,12 @@ div.ps-toolbar-play div.ps-toolbar-content
     background-image: url(/icons@2x.png);
   }
 }
+
+@media (max-width: 768px) {
+  div#main_title {
+    h1 {
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+}

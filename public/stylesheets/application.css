@@ -6225,3 +6225,10 @@ div.ps-toolbar-play div.ps-toolbar-content {
     background-image: url(/icons@2x.png);
   }
 }
+@media (max-width: 768px) {
+  /* line 228, ../../app/stylesheets/application.css.scss */
+  div#main_title h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
